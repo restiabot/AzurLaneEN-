@@ -27,15 +27,15 @@ chmod +x apkeep
 # Download Azur Lane
 download_azurlane () {
     if [ ! -f "com.YoStarJP.AzurLane" ]; then
-    ./apkeep -a com.YoStarEN.AzurLane .
+    ./apkeep -a com.YoStarJP.AzurLane .
     fi
 }
 
 if [ ! -f "com.YoStarJP.AzurLane" ]; then
     echo "Get Azur Lane apk"
     download_azurlane
-    unzip -o com.YoStarEN.AzurLane.xapk -d AzurLane
-    cp AzurLane/com.YoStarEN.AzurLane.apk .
+    unzip -o com.YoStarJP.AzurLane.xapk -d AzurLane
+    cp AzurLane/com.YoStarJP.AzurLane.apk .
 fi
 
 # Download Perseus
