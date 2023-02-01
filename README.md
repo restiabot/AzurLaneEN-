@@ -6,6 +6,12 @@ This repo template will allow you to build Perseus using Github Actions. This wi
 - Under **NO CIRCUMSTANCES** any APKs will be uploaded to this repository to avoid DMCA.
 - If you want to contribute, fork the repo instead
 
+## Azur Lane regions
+- **EN**: com.YoStarEN.AzurLane
+- **JP**: com.YoStarJP.AzurLane
+- **KR**: kr.txwy.and.blhx
+- **TW**: com.hkmanjuu.azurlane.gp
+
 ## How to setup
 1. Create a new PRIVATE repository using this repository as a template ([Guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)).
 2. ...
