@@ -30,12 +30,12 @@ if [ ! -f "com.YoStarEN.AzurLane" ]; then
 
     # eg: wget "your download link" -O "your packge name.apk" -q
     #if you want to patch .xapk, change the suffix here to wget "your download link" -O "your packge name.xapk" -q
-    wget https://download.apkcombo.com/com.YoStarEN.AzurLane/Azur%20Lane_7.1.8_apkcombo.com.apk?ecp=Y29tLllvU3RhckVOLkF6dXJMYW5lLzcuMS44LzcxMDA4LjgzMDhkY2FlOGU3MmQ5OWFjNjg4ZWI4NWMwNzdlNzhkNmZkYzVhZWYuYXBr&iat=1697888101&sig=1f21d8a514889086e3df22f986d4f6bb&size=57178139&from=cf&version=old&lang=en&fp=50a42396870916c1a822e8b0ff822fa7&ip=205.178.183.170 -O com.YoStarEN.AzurLane.apk -q
+    wget https://d.apkpure.com/b/XAPK/com.YoStarEN.AzurLane?version=latest -O com.YoStarEN.AzurLane.xapk -q
     echo "apk downloaded !"
     
     # if you can only download .xapk file uncomment 2 lines below. (delete the '#')
-    #unzip -o com.YoStarJP.AzurLane.xapk -d AzurLane
-    #cp AzurLane/com.YoStarJP.AzurLane.apk .
+    unzip -o com.YoStarEN.AzurLane.xapk -d AzurLane
+    cp AzurLane/com.YoStarEN.AzurLane.apk .
 fi
 
 # Download Perseus
