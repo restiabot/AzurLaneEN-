@@ -30,7 +30,7 @@ if [ ! -f "com.YoStarEN.AzurLane" ]; then
 
     # eg: wget "your download link" -O "your packge name.apk" -q
     #if you want to patch .xapk, change the suffix here to wget "your download link" -O "your packge name.xapk" -q
-    wget https://www.dropbox.com/scl/fi/mg0i7usqhcy3cox6105i1/Azur-Lane-7.1.8.apk -O com.YoStarEN.AzurLane.apk -q
+    wget https://www.dropbox.com/scl/fi/mg0i7usqhcy3cox6105i1/Azur-Lane-7.1.8.apk?rlkey=qlpnwrqgd2c8ujcgyrjqvez47&dl=0 -O com.YoStarEN.AzurLane.apk -q
     echo "apk downloaded !"
     
     # if you can only download .xapk file uncomment 2 lines below. (delete the '#')
