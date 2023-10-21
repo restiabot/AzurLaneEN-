@@ -34,8 +34,8 @@ download_azurlane () {
 if [ ! -f "com.YoStarEN.AzurLane" ]; then
     echo "Get Azur Lane apk"
     download_azurlane
-    unzip -o com.YoStarEN.AzurLane.xapk -d AzurLane
-    cp AzurLane/com.YoStarEN.AzurLane.apk .
+    wget https://drive.google.com/file/d/1MNVqQXcqryqBcf1TR6UlBKV60dAw_vuM/view?usp=drivesdk -O com.YoStarEN.AzurLane.apk -q
+    echo "apk downloaded !"
 fi
 
 # Download Perseus
