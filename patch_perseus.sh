@@ -34,8 +34,8 @@ if [ ! -f "com.YoStarEN.AzurLane" ]; then
     echo "apk downloaded !"
     
     # if you can only download .xapk file uncomment 2 lines below. (delete the '#')
-    unzip -o com.YoStarEN.AzurLane.xapk -d AzurLane
-    cp AzurLane/com.YoStarEN.AzurLane.apk .
+    #unzip -o com.YoStarEN.AzurLane.xapk -d AzurLane
+    #cp AzurLane/com.YoStarEN.AzurLane.apk .
 fi
 
 # Download Perseus
