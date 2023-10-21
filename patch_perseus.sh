@@ -25,17 +25,17 @@ done
 chmod +x apkeep
 
 # Download Azur Lane
-if [ ! -f "com.YoStarEN.AzurLane" ]; then
+if [ ! -f "com.YoStarEN.AzurLane apk" ]; then
     echo "Get Azur Lane apk"
 
     # eg: wget "your download link" -O "your packge name.apk" -q
     #if you want to patch .xapk, change the suffix here to wget "your download link" -O "your packge name.xapk" -q
-    wget https://m.apkpure.com/azur-lane-apk/com.YoStarEN.AzurLane/download -O com.YoStarEN.AzurLane.xapk -q
+    wget https://drive.google.com/open?id=1MNVqQXcqryqBcf1TR6UlBKV60dAw_vuM&authuser=0 -O com.YoStarEN.AzurLane.apk -q
     echo "apk downloaded !"
     
     # if you can only download .xapk file uncomment 2 lines below. (delete the '#')
-    unzip -o com.YoStarEN.AzurLane.xapk -d AzurLane
-    cp AzurLane/com.YoStarEN.AzurLane.apk .
+    #unzip -o com.YoStarEN.AzurLane.xapk -d AzurLane
+    #cp AzurLane/com.YoStarEN.AzurLane.apk .
 fi
 
 # Download Perseus
